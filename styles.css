@@ -1,3 +1,113 @@
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+
 body {
+    color: #457974;
+    font-family: "Space Mono", monospace;
+    background-color: #030206;
+    margin: 0;
+}
+
+.content {
+    margin-top: 1%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Space Mono", monospace;
+}
+
+h1, h2 {
+    font-weight: 700;
+    color: beige;
+}
+
+p {
+    font-weight: 700;
+}
+
+u {
+    color: greenyellow;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    font-weight: 400;
+}
+
+.header {
+    margin-top: 15%;
+    margin-bottom: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+    font-family: "Space Mono", monospace;
+}
+
+.navbar {
     background-color: #2D5652;
+    overflow: hidden;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+li {
+    display: inline;
+    float: left;
+    padding-right: 10%;
+}
+
+.navbar a {
+    font-weight: 700;
+    color: beige;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    font-weight: 400;
+    color: greenyellow;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #2D5652;
+    color: beige;
+    text-align: center;
+}
+
+.footer a {
+    color: beige;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    font-weight: 400;
+    color: greenyellow;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
 }
