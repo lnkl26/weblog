@@ -24,7 +24,7 @@
 
 
 body {
-    color: #457974;
+    color: #378b79;
     font-family: "Space Mono", monospace;
     background-color: #030206;
     margin: 0;
@@ -32,10 +32,11 @@ body {
 
 .content {
     margin-top: 1%;
-    margin-bottom: 5%;
+    margin-bottom: 2.5%;
     margin-left: 15%;
     margin-right: 15%;
     font-family: "Space Mono", monospace;
+    line-height: 25px;
 }
 
 h1, h2 {
@@ -55,8 +56,8 @@ u {
 }
 
 .header {
-    margin-top: 15%;
-    margin-bottom: 5%;
+    margin-top: 125px;
+    margin-bottom: 25px;
     margin-left: 15%;
     margin-right: 15%;
     font-family: "Space Mono", monospace;
@@ -110,4 +111,36 @@ li {
     color: greenyellow;
     text-decoration-line: underline;
     text-decoration-style: wavy;
+}
+
+.toggle-button {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    background-color: beige;
+    border: none;
+    color: #030206;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 15px;
+}
+
+.light-mode {
+    background-color: beige;
+    color: #030206;
+    font-weight: 400;
+}
+
+.light-mode h1, .light-mode h2 {
+    color: #030206;
+}
+
+.light-mode u {
+    color: #378b79;
+    font-weight: 700;
+}
+
+.light-mode button {
+    background-color: #2D5652;
+    color: beige;
 }
