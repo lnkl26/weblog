@@ -7,7 +7,7 @@ A site to keep track of current and future coding projects.
 `toggleMode()`
 * Used to switch the site from [Dark Mode] to [Light Mode]
 ### DevLog
-I will mention snippets and thought process (with dates) on the site. But I will use this README to link to my other repositories that are being worked on.
+I will mention snippets and thought process (with dates) on the site. But I will use this README to link to my other repositories.
 * [After Midnight: Text Adventure Game](https://github.com/lnkl26/aftermidnight)
     * { Completed }
     * { Academic Project }
