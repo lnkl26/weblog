@@ -6,6 +6,7 @@ A site to keep track of current and future coding projects.
 ### Current
 `toggleMode()`
 * Used to switch the site from [Dark Mode] to [Light Mode]
+
 "not_found" page
 * Users who end up here can return back to the main page by clicking the home link
 ### DevLog
